@@ -1,2 +1,71 @@
 @charset "UTF-8";
 /* 回答はここから */
+.text-alain{
+  width: ;
+}
+.question--title {
+  font-size: 20px;
+}
+
+.q1--horizontality {
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #a4e4f1;
+}
+.white--box{
+  text-align: center;
+  display: flex;
+  width: 200px;
+  height: 60px;
+  background-color: #FFF;
+}
+.first--box{
+  background-color: #a4b3e9;
+  text-align: center;
+}
+.text-align--box{
+  text-align: center;
+  margin: 0 auto;
+  width: 90px;
+  padding: 10px;
+  background: #a4b3e9;
+}
+.second--box{
+  padding: 10px;
+  background-color: #a4b3e9;
+  width: 50%;
+  position:relative;
+}
+.second--box div{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100%;
+}
+  text-align:center;
+  position:relative;
+.q1--perimeter {
+  width: 250px;
+  height: 150px;
+  margin: 0 auto 20px;
+  background-color: #a4e4f1;
+}
+
+.q1--position {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: #a4e4f1;
+}
+
+.container {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #FFF;
+  font-size: 16px;
+  vertical-align: top;
+}
