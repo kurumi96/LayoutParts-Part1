@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* 回答はここから */
-.text-alain{
-  width: ;
-}
+
 .question--title {
   font-size: 20px;
 }
@@ -13,44 +11,66 @@
   padding: 20px;
   background-color: #a4e4f1;
 }
-.white--box{
-  text-align: center;
+.inline--box{
   display: flex;
   width: 200px;
-  height: 60px;
   background-color: #FFF;
+  display: inline-block;
+  padding: 20px 0px;
 }
-.first--box{
-  background-color: #a4b3e9;
+.align--box{
   text-align: center;
 }
-.text-align--box{
-  text-align: center;
-  margin: 0 auto;
-  width: 90px;
+.align--text{
   padding: 10px;
   background: #a4b3e9;
+  display: inline-block;
 }
-.second--box{
+.margin--text{
+  margin: 0 auto;
   padding: 10px;
   background-color: #a4b3e9;
-  width: 50%;
+  width: 90px;
   position:relative;
+  display: inline-block;
 }
-.second--box div{
+.margin--text div{
   position:absolute;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
   width:100%;
 }
-  text-align:center;
-  position:relative;
+/* <!-- Q1-2の回答はここから --> */
 .q1--perimeter {
   width: 250px;
   height: 150px;
   margin: 0 auto 20px;
   background-color: #a4e4f1;
+}
+.table--box{
+  display: table;
+}
+.table--text{
+  vertical-align: middle;
+  background-color: #FFF;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: table-cell;
+  text-align: center;
+}
+
+.flex--box{
+  display: flex;
+}
+.flex--text{
+  background-color: #FFF;
+  padding: 10px;
+  font-size: 16px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .q1--position {
