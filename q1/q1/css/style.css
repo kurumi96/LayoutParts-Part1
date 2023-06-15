@@ -92,10 +92,19 @@
   vertical-align: top;
 }
 
-.position--box p{
+.position{
+  position: relative;
+  height: 5em;
+  width:100px;
+  background-color: #a4b3e9;
+}
+.position--box{
   position:absolute;
-  height:50%;
-  top: 50px;
+  height:1.2rem;
+  top: 0;
+  bottom:0;
+  left:0;
+  right: 0;
   margin:auto;
-
+  width: 50%;
 }
