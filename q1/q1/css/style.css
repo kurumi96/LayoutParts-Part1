@@ -48,9 +48,9 @@
   margin: 0 auto 20px;
   background-color: #a4e4f1;
 }
-.table--box{
-  display: table;
+.table--box {
   display: table-cell;
+  vertical-align: middle;
   text-align: center;
 }
 .table--text{
@@ -59,7 +59,8 @@
   background-color: #FFF;
   padding: 10px;
   font-size: 16px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  display: inline-block;
 }
 
 .flex--box{
@@ -89,4 +90,12 @@
   background-color: #FFF;
   font-size: 16px;
   vertical-align: top;
+}
+
+.position--box p{
+  position:absolute;
+  height:50%;
+  top: 50px;
+  margin:auto;
+
 }
