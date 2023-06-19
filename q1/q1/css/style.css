@@ -42,15 +42,16 @@
   width:100%;
 }
 /* <!-- Q1-2の回答はここから --> */
-.q1--perimeter {
+.q1--perimeter--table{
   width: 250px;
   height: 150px;
   margin: 0 auto 20px;
   background-color: #a4e4f1;
+  display: table;
 }
 .table--box {
-  display: table-cell;
-  vertical-align: middle;
+  display:table-cell;
+  /* height: 0px; */
   text-align: center;
 }
 .table--text{
@@ -59,10 +60,15 @@
   background-color: #FFF;
   padding: 10px;
   font-size: 16px;
-  /* margin: 0 auto; */
-  display: inline-block;
+  margin: 0 auto;
 }
 
+.q1--perimeter div{
+  width: 250px;
+  height: 150px;
+  margin: 0 auto 20px;
+  background-color: #a4e4f1;
+}
 .flex--box{
   display: flex;
 }
@@ -82,7 +88,7 @@
   background-color: #a4e4f1;
 }
 
-.container {
+.container div{
   display: inline-block;
   width: 250px;
   height: 150px;
@@ -94,17 +100,14 @@
 
 .position{
   position: relative;
-  height: 5em;
-  width:100px;
-  background-color: #a4b3e9;
 }
 .position--box{
   position:absolute;
   height:1.2rem;
-  top: 0;
-  bottom:0;
-  left:0;
-  right: 0;
+  top: 50%;
+  bottom:50%;
   margin:auto;
-  width: 50%;
+  background-color: #a4b3e9;
+  transform:translate(-50%,-50%);
+  padding: 10px;
 }
