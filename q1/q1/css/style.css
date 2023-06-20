@@ -98,16 +98,19 @@
   vertical-align: top;
 }
 
-.position{
+.position {
   position: relative;
+  height: 60px;
+  text-align: center;
 }
-.position--box{
+.position--box {
   position:absolute;
   height:1.2rem;
   top: 50%;
   bottom:50%;
-  margin:auto;
+  /* margin:auto; */
   background-color: #a4b3e9;
   transform:translate(-50%,-50%);
   padding: 10px;
+  display: inline-block;
 }
