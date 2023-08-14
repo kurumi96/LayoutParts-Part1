@@ -1,7 +1,5 @@
 @charset "UTF-8";
-.first--box{
-  display: flex;
-}
+
 .flex--item{
   width: 65px;
   padding: 10px;
@@ -10,15 +8,55 @@
   background-color: #00bbdd;
   text-align: center;
 }
-.second--box{
+/* q1 */
+.first--box1{
+  display: flex;
+  flex-direction: row;
+}
+.second--box1{
   display: flex;
   flex-direction:row-reverse;
 }
-.third--box{
+.third--box1{
   display:flex;
   flex-flow: column;
 }
-.fourth--box{
+.fourth--box1{
   display:flex;
   flex-direction:column-reverse;
+}
+/* q2 */
+.first--box2{
+  display: flex;
+  white-space: nowrap;
+}
+.second--box2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.third--box2{
+  display: flex;
+  flex-flow: wrap-reverse;
+}
+/* q3 */
+.first--box3{
+  display: flex;
+  justify-content: flex-start;
+}
+.second--box3{
+  display: flex;
+  justify-content: flex-end;
+}
+.third--box3{
+  display: flex;
+  justify-content: center;
+}
+.fourth--box3{
+  display: flex;
+  justify-content: space-between;
+}
+.fifth--box3{
+  display: flex;
+  justify-content: space-around;
 }
